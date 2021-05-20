@@ -1,0 +1,2 @@
+include ':mysql-connector-java-8.0.24'
+include ':app', ':voiceit2'

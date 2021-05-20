@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">amuraone_</string>
+
+    <string name="SAY_PASSPHRASE">Por favor di \"%1$s\"</string>
+    <string name="INCORRECT_PASSPHRASE">Frase de contraseña incorrecta. Por favor di \"%1$s\"</string>
+    <string name="LOOK_INTO_CAM">Please look into the camera</string>
+    <string name="TOO_MANY_FACES">Found too many faces. Make sure only your face is visible.</string>
+    <string name="WAIT">Por favor espere..</string>
+    <string name="ENROLL_1_PHRASE">Por favor di \"%1$s\"</string>
+    <string name="ENROLL_2_PHRASE">Por favor di \"%1$s\" otra vez</string>
+    <string name="ENROLL_3_PHRASE">Por favor di \"%1$s\" una vez más</string>
+    <string name="ENROLL_SUCCESS">Registro correcto!</string>
+    <string name="ENROLL_FAIL">Fallo en el registro</string>
+    <string name="ALL_ENROLL_SUCCESS">Todos los registros fueron correctos!</string>
+    <string name="NOT_ENOUGH_ENROLLMENTS">Tu no tienes registros. Por favor registrese y vuelva a intentarlo.</string>
+    <string name="VERIFY_SUCCESS">Tu has sido verificado con exito!</string>
+    <string name="VERIFY_FAIL">Verificacion incorrecta.</string>
+    <string name="IDENTIFY_SUCCESS">Tu has sido identificado con exito!</string>
+    <string name="IDENTIFY_FAIL">Identificacion fallida.</string>
+    <string name="TOO_MANY_ATTEMPTS">Muchos intentos hechos. Por favor intentelo más tarde.</string>
+    <string name="BLINK_1_TIME">Please blink 1 more time</string>
+    <string name="BLINK_2_TIME">Please blink 2 times</string>
+    <string name="TURN_RIGHT">Please turn your face right, then back forward.</string>
+    <string name="TURN_LEFT">Please turn your face left, then back forward</string>
+    <string name="SMILE">Please smile</string>
+    <string name="FAILED_LIVENESS">Failed liveness detection</string>
+    <string name="FAILED_LIVENESS_CHALLENGE">Failed liveness challenge, please try again.</string>
+    <string name="FAILED_PRECHECK">Please wait to be prompted before taking action.</string>
+    <string name="MOVE_CLOSER">Please move closer to the camera</string>
+
+    <string name="FNFD">Sorry, we couldn\'t quite see your face. Please try again.</string>
+    <string name="DDNE">Sorry, something went wrong.Please try again.</string>
+    <string name="FAIL">No se pudo verificar debido a la baja confianza. Inténtalo de nuevo.</string>
+    <string name="IFWD">Lo siento, algo salió mal.\nVuelve a intentarlo.</string>
+    <string name="TVER">Sorry, no video enrollments detected.\nPlease enroll and try again.</string>
+    <string name="NEHSD">Lo siento, no pudimos entenderlo.\nHabla más lento.</string>
+    <string name="STTF">Lo sentimos, no pudimos entenderte. \nHabla con más claridad o muévete a un ambiente más tranquilo."</string>
+    <string name="RWPU">No utilice grabaciones e inténtelo de nuevo.</string>
+    <string name="FTMF">Make sure only your face is visible.\nPlease try again.</string>
+    <string name="SSTQ">Lo siento, habla más alto y vuelve a intentarlo.</string>
+    <string name="SSTL">Lo siento, habla más tranquilo y vuelve a intentarlo.</string>
+    <string name="NFEF">Sorry, no face enrollments detected.\nPlease enroll and try again.</string>
+    <string name="PNTE">Lo sentimos, no se detectaron inscripciones con esa frase. \nRegístrese antes de verificar.</string>
+    <string name="PDNM">Lo siento, dijiste la frase incorrecta. \nPor favor, di \"%1$s\".</string>
+    <string name="MISU">Sorry, group does not have enough users, you need two or more users for identification.\nPlease enroll before identifying.</string>
+
+    <string name="NPFC">Lo sentimos, no se pudieron encontrar frases para ese idioma de contenido. \nPonte en contacto con el desarrollador de la aplicación.</string>
+
+    <string name="IFVD">Lo siento, algo salió mal. \nVuelve a intentarlo.</string>
+    <string name="IFAD">Lo siento, algo salió mal. \nVuelve a intentarlo.</string>
+    <string name="SRNR">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: SRNR.</string>
+    <string name="UNFD">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: UNFD.</string>
+    <string name="MISP">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: MISP.</string>
+    <string name="DAID">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: DAID.</string>
+    <string name="UNAC">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: UNAC.</string>
+    <string name="CLNE">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: CLNE.</string>
+    <string name="INCP">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: INCP.</string>
+    <string name="INPP">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: INPP.</string>
+    <string name="ACLR">Lo sentimos, algo salió mal. \nPonte en contacto con el desarrollador de la aplicación con el código de error: ACLR.</string>
+    <string name="CHECK_CODE">Comprueba tu código e inténtalo de nuevo.</string>
+
+    <string name="GERR">Lo siento, algo salió mal. \nVuelve a intentarlo.</string>
+
+    <string name="CHECK_INTERNET">No se puede contactar con el servidor. \nCompruebe su conexión a Internet.</string>
+
+    <!-- <string name="GRANT_WRITE_PERMISSON">"Grant permission for screen brightness"</string> -->
+
+    <string name="CONTINUE">Continuar</string>
+
+</resources>

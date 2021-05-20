@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#676767"
+    tools:visibility="visible">
+
+    <Spinner
+        android:id="@+id/spNombres"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btFichar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:onClick="comprobarUserByName2"
+        android:text="fichar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spNombres" />
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="comprobarUserByName"
+        android:text="Registrar voz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btFichar" />
+
+    <Button
+        android:id="@+id/btAnadir"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:onClick="aniadirUser"
+        android:text="Añadir empleado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRegistrar" />
+
+    <EditText
+        android:id="@+id/etNombreAnadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#FDFCFC"
+        android:ems="20"
+        android:gravity="center"
+        android:hint="@string/nombreUnicoAnadir"
+        android:inputType="textMultiLine|text"
+        android:lines="2"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textColorHint="#000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btAnadir" />
+
+    <RadioGroup
+        android:layout_width="173dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btFichar"
+        app:layout_constraintTop_toBottomOf="@+id/spNombres">
+
+        <RadioButton
+            android:id="@+id/rbEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Entrada"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbSalida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salida"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
